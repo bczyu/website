@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>InstagramFollowerV4</title>
+</head>
+<body>
+    <header>
+        <h1>InstagramFollowerV4</h1> 
+        <p>Turn On/Off light</p>
+        <label class="switch">
+            <input type="checkbox" id="roundSwitch" onchange="toggleLight()">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <section id="features">
+        <h2>Key Features</h2>
+        <p>Featuers [FREE VERSION] </p>
+         <li>Limited Uses (2) </li>
+         <li>Limited Threads (1) </li>
+         <li>You can only use 1 time </li>
+    </section>
+    <section id="screenshots">
+        <h2>Screenshots</h2>
+        <div class="screenshot-container">
+            <img src="https://cdn.discordapp.com/attachments/1201579794920378452/1222496824762433587/image.png?ex=66166de3&is=6603f8e3&hm=0eae37c5254965d48ee51eb7bb5bc813d8b3c45577ffbc43b3b9ca4581ac3f6c&">
+            <img src="https://cdn.discordapp.com/attachments/1201579794920378452/1222497295497695233/image.png?ex=66166e54&is=6603f954&hm=c8d2c6d51da7783894d3deb01f14d7ee5485bf5daa422eeeff98dc6069fc061d&">
+        </div>
+    </section>
+
+    <section id="tutorial-video">
+        <h2>Installation Instructions</h2>
+        <section>
+            <li>Click download</li>
+            <li>Execute the file as administrator</li>
+            <li>You might need to turn off your antivirus due to false positive</li>
+            <li>Generate accounts and follow yourself with your ID</li>
+            <li>You have only one try (free version) </li>
+
+        </section>
+    </section>
+    <section id="download">
+        <h2>Download</h2>
+        <p>Click to download the free and last version!</p>
+        <a href="InstagramFollower.rar" download="InstagramFollower.rar">Download InstagramFollower V4</a>
+        <p></p>
+        <p>VirusTotal: <a href="https://www.virustotal.com/gui/file/b4ab38a75b6bc103159d69df0fddf2a1d20f10edc6e2bfc1d14a562f49891d40/detection" target="_blank">Scan Report</a></p>
+        <ul>
+            <li>
+                Checked with Avast Antivirus
+            </li>
+            <li>
+                Checked with Windows Defender
+            </li>
+            <li>
+                Checked with Kaspersky Antivirus
+            </li>
+        </ul>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>LifeTime Key 10$</p>
+        <p>Features</p>
+         <li>Free Proxy</li>
+         <li>Unlimited Threads</li>
+         <li>Unlimited uses</li>
+         <li>Unlocks All Features such as PFP followers </li>
+         <li>Support 24/7</li>
+    <p>Monthly Key: 5$</p>
+    <p>Features:</p>
+      <li>Unlocks All Features such as PFP followers</li>
+      <li>Limited Uses (5) </li>
+      <li>Limited Threads (3)</li>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="help.html">Frequently Asked Questions</a></li>
+                <li><a href="version.html">Versions Changed logs</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Instagram  Follower. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function toggleLight() {
+            var styleLink = document.getElementById("styleLink");
+            var roundSwitch = document.getElementById("roundSwitch");
+            if (roundSwitch.checked) {
+                styleLink.href = "light.css";
+            } else {
+                styleLink.href = "styles.css";
+            }
+        }
+    </script>
+</body>
+</html>
+
